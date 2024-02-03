@@ -67,7 +67,7 @@
 @media (max-width: 768px) {
   .navbar {
     opacity: 0.95;
-    background: #272f54;
+    /* background: #272f54; */
   }
 
   .navbar-container input[type="checkbox"],
@@ -130,7 +130,7 @@
 
   .navbar .menu-items {
     padding-top: 100px;
-    background: #fff;
+    background: #272f54;
 
     height: 100vh;
     max-width: 300px;
