@@ -23,7 +23,7 @@
 }
 
 section {
-  padding: 6rem 9% 0.1rem;
+  padding: 2rem 9% 0.1rem;
 }
 .hero {
   background-image: linear-gradient(#272f54, #ffffff);
@@ -247,4 +247,44 @@ hr {
   .navbar-container input[type="checkbox"]:checked ~ .logo {
     display: none;
   }
+}
+
+
+
+/*  */
+
+.main{
+  
+  font-size: large;
+  text-align: center;
+  padding-left: 5%;
+  width: 90%;
+  text-align: justify;
+  
+  
+
+}
+.hero{
+  background-image: linear-gradient(#adb8e8, #ffffff);
+}
+
+.column{
+  padding-left: 8%;
+  background-color: #272f54;
+  opacity: 0.85;
+  
+}
+
+.part hr{
+  width: 90%;
+  size: 3;
+  margin-left: 3%;
+}
+.para{
+  margin-left: 20%;
+  width: 60%
+
+}
+footer{
+  margin-top: 1rem;
 }
