@@ -167,6 +167,90 @@ hr {
   padding: 2rem;
 }
 
+td,
+th {
+  border: 2px solid #000;
+  text-align: center;
+  padding: 2rem;
+}
+.card {
+  padding: 2rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 1rem;
+  background-image: linear-gradient(#949ed4, #ffffff);
+}
+.btn {
+  display: flex;
+  justify-content: center;
+}
+button {
+  border: none;
+
+  position: relative;
+  padding: 0.7em 2.4em;
+  font-size: 18px;
+  /* left: 50%; */
+  margin-top: 1rem;
+  background: transparent;
+  cursor: pointer;
+  user-select: none;
+  overflow: hidden;
+  color: #5773f4;
+  z-index: 1;
+  font-family: inherit;
+  font-weight: 500;
+  border-radius: 2rem;
+}
+
+button span {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  z-index: -1;
+  border: 4px solid #5773f4;
+  border-radius: 2rem;
+}
+
+button span::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 8%;
+  height: 500%;
+  background: var(--lightgray);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-60deg);
+  transition: all 0.3s;
+}
+
+button:hover span::before {
+  transform: translate(-50%, -50%) rotate(-90deg);
+  width: 100%;
+  background: #5773f4;
+}
+
+button:hover {
+  color: white;
+}
+
+button:active span::before {
+  background: #2751cd;
+}
+
+.term p {
+  padding-top: 1.5rem;
+
+  padding-left: 5rem;
+  padding-right: 5rem;
+  font-size: 1.5rem;
+}
 @media (max-width: 1200px) {
   html {
     font-size: 60%;
@@ -314,42 +398,34 @@ hr {
   }
 }
 
-
-
 /*  */
 
-.main{
-  
+.main {
   font-size: large;
   text-align: center;
   padding-left: 5%;
   width: 90%;
   text-align: justify;
-  
-  
-
 }
-.hero{
+.hero {
   background-image: linear-gradient(#adb8e8, #ffffff);
 }
 
-.column{
-  padding-left: 8%;
+.column {
+  padding: 2rem;
   background-color: #272f54;
   opacity: 0.85;
-  
 }
 
-.part hr{
+.part hr {
   width: 90%;
   size: 3;
   margin-left: 3%;
 }
-.para{
+.para {
   margin-left: 20%;
-  width: 60%
-
+  width: 60%;
 }
-footer{
+footer {
   margin-top: 1rem;
 }
