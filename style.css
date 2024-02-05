@@ -45,8 +45,8 @@ h1 {
 } */
 .timeline img {
   padding: 5rem;
-
-  size: 100px;
+  height: auto;
+  width: 100%;
 }
 
 /* .heading {
@@ -279,6 +279,17 @@ hr {
 
   .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
     transform: rotate(-45deg);
+  }
+  .points li {
+    font-size: 1.5rem;
+  }
+  .topic-container {
+    font-size: 1.5rem;
+    /* padding: 2rem; */
+  }
+
+  .topic-container .topic-box {
+    padding: 2rem;
   }
 
   .topic-container {
