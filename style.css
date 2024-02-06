@@ -110,8 +110,10 @@ hr {
   display: flex;
 }
 .logo {
-  order: 1;
-  font-size: 2.3rem;
+  /* order: 1;
+  font-size: 2.3rem; */
+  width: 120px;
+  height: auto;
 }
 
 .menu-items li {
