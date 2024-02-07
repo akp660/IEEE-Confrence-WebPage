@@ -38,14 +38,10 @@ h1 {
   text-align: center;
   font-size: 2.5rem;
 }
-/* .timeline {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-} */
+
 .timeline img {
   padding: 5rem;
-  height: auto;
+  /* height: auto; */
   width: 100%;
 }
 
@@ -135,7 +131,7 @@ hr {
 
 .points li {
   padding-top: 1.5rem;
-text-align: justify;
+  text-align: justify;
   /* padding-left: 5rem; */
   /* padding-right: 2rem; */
   font-size: 1.5rem;
@@ -153,7 +149,7 @@ text-align: justify;
   margin-top: 40px;
 }
 .topic-container .topic-box {
-  position: relative;
+  /* position: relative; */
   border-radius: 1rem;
   background-image: linear-gradient(#949ed4, #ffffff);
 
@@ -274,7 +270,7 @@ button:active span::before {
 
 .term p {
   padding-top: 1.5rem;
-text-align: justify;  /* change here*/
+  text-align: justify; /* change here*/
   padding-left: 5rem;
   padding-right: 5rem;
   font-size: 1.5rem;
@@ -415,6 +411,12 @@ text-align: justify;  /* change here*/
   }
   .points li {
     font-size: 1.5rem;
+  }
+  .timeline img {
+    /* padding: 3rem; */
+    padding-left: 0rem;
+
+    width: 370px;
   }
   .topic-container {
     font-size: 1.5rem;
