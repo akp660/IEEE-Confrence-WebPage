@@ -135,7 +135,7 @@ hr {
 
 .points li {
   padding-top: 1.5rem;
-
+text-align: justify;
   /* padding-left: 5rem; */
   /* padding-right: 2rem; */
   font-size: 1.5rem;
@@ -274,7 +274,7 @@ button:active span::before {
 
 .term p {
   padding-top: 1.5rem;
-
+text-align: justify;  /* change here*/
   padding-left: 5rem;
   padding-right: 5rem;
   font-size: 1.5rem;
