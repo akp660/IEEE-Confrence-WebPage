@@ -173,7 +173,7 @@ th {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  min-height: 500px;
+  min-height: 600px;
 }
 .color {
   background-image: linear-gradient(#adb8e8, #ffffff);
